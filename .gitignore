@@ -1,5 +1,5 @@
 nohup.out
-charts/
+*.tgz
 .idea/
 *~
 Chart.lock
