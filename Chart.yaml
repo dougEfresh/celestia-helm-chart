@@ -1,0 +1,23 @@
+apiVersion: v2
+appVersion: 0.12.4
+annotations:
+  category: app
+  licenses: MIT
+dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.x.x
+description: Celestia node application
+home: https://celestia.org
+icon: https://celestia.org/static/celestia-logo-29451ae35d3bb72cc4b0f17712d44c3a.svg
+name: celestia
+version: 0.1.0
+maintainers:
+  - name: dougefresh
+    email: dchimento@gmail.com
+sources:
+  - https://github.com/celestia-helm-chart
+keywords:
+  - crypto
+  - blockchain
+  - celestia
