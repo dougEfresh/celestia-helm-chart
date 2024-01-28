@@ -3,6 +3,10 @@ appVersion: 0.12.4
 annotations:
   category: app
   licenses: MIT
+  "artifacthub.io/license": MIT
+  "artifacthub.io/links": |
+    - name: Chart Source
+      url: https://github.com/dougEfresh/celestia-helm-chart
 dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
