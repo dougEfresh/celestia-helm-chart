@@ -2,6 +2,37 @@ apiVersion: v1
 entries:
   celestia-node:
   - annotations:
+      artifacthub.io/license: MIT
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/dougEfresh/celestia-helm-chart
+      category: app
+      licenses: MIT
+    apiVersion: v2
+    appVersion: 0.12.4
+    created: "2024-01-28T17:45:16.040804576Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.x.x
+    description: Celestia node application
+    digest: 2060ad6567a08052db2fb9a5bb9945d53f3d546e82d34ba39e27b9dd4bc18ac3
+    home: https://celestia.org
+    icon: https://celestia.org/static/celestia-logo-29451ae35d3bb72cc4b0f17712d44c3a.svg
+    keywords:
+    - crypto
+    - blockchain
+    - celestia
+    maintainers:
+    - email: dchimento@gmail.com
+      name: dougefresh
+    name: celestia-node
+    sources:
+    - https://github.com/celestia-helm-chart
+    urls:
+    - https://github.com/dougEfresh/celestia-helm-chart/releases/download/celestia-node-0.1.1/celestia-node-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       category: app
       licenses: MIT
     apiVersion: v2
@@ -28,4 +59,4 @@ entries:
     urls:
     - https://github.com/dougEfresh/celestia-helm-chart/releases/download/celestia-node-0.1.0/celestia-node-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-28T17:23:03.084248932Z"
+generated: "2024-01-28T17:45:16.040853828Z"
