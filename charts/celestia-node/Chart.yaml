@@ -10,7 +10,7 @@ dependencies:
 description: Celestia node application
 home: https://celestia.org
 icon: https://celestia.org/static/celestia-logo-29451ae35d3bb72cc4b0f17712d44c3a.svg
-name: celestia
+name: celestia-node
 version: 0.1.0
 maintainers:
   - name: dougefresh
