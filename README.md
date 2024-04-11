@@ -1,5 +1,1 @@
-# celestia
-
-celestia node
-
-TBD
+charts/celestia-node/README.md
