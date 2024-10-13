@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: 0.13.6
+appVersion: 0.16.0
 annotations:
   category: app
   licenses: MIT
@@ -15,7 +15,7 @@ description: Celestia node application
 home: https://celestia.org
 icon: https://dougefresh.github.io/celestia-helm-chart/icon.png
 name: celestia-node
-version: 0.1.6
+version: 0.1.7
 maintainers:
   - name: dougefresh
     email: dchimento@gmail.com

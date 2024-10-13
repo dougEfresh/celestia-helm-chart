@@ -96,7 +96,7 @@ celestia:
   image:
     registry: ghcr.io
     repository: celestiaorg/celestia-node
-    tag: "v0.13.6"
+    tag: "v0.16.0"
     digest: ""
     ## Specify a imagePullPolicy
     ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
